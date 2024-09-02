@@ -375,6 +375,102 @@ footer .widget_title_text {
     margin-top: 30px;
 }
 
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom:40px;
+    margin-right: 20px;
+}
 
+.mm_line {
+    height: 3px;
+    background-color: #39aae1;
+}
+
+/*Responsividade*/
+
+@media (max-width:600px) {
+
+    #banner {
+        height: auto;
+    }
+
+    .banner_headline {
+        padding: 20px;
+    }
+
+    .banner_headline h1 {
+        font-size: 51;
+    }
+
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .widget_box_grup {
+        justify-content:space-around;
+    }
+
+    #geral section,
+    #geral aside  {
+        padding: 20px;
+    }
+
+    .footer_menu,
+    .footer_area {
+        flex-direction: column;
+    }
+
+    .footer_areaItem {
+        padding: 20px;
+    }
+
+    .footer_copy {
+        padding-left: 20px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    header {
+        height: auto;
+    }
+    
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
 
 
